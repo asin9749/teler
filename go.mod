@@ -1,26 +1,43 @@
 module ktbs.dev/teler
 
-go 1.14
+go 1.23.0
 
 require (
-	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/briandowns/spinner v1.16.0
 	github.com/bwmarrin/discordgo v0.23.2
-	github.com/fatih/color v1.10.0 // indirect
 	github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible
 	github.com/kirsle/configdir v0.0.0-20170128060238-e45d2f54772f
-	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/projectdiscovery/gologger v1.1.4
-	github.com/prometheus/client_golang v1.10.0
+	github.com/prometheus/client_golang v1.23.2
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/sahilm/fuzzy v0.1.0
 	github.com/satyrius/gonx v1.3.0
 	github.com/slack-go/slack v0.8.2
-	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
 	github.com/valyala/fastjson v1.6.3
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
-	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/validator.v2 v2.0.0-20200605151824-2b28d334fa05
 	gopkg.in/yaml.v2 v2.4.0
+)
+
+require (
+	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/fatih/color v1.10.0 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/mattn/go-colorable v0.1.8 // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/prometheus/client_model v0.6.2 // indirect
+	github.com/prometheus/common v0.66.1 // indirect
+	github.com/prometheus/procfs v0.16.1 // indirect
+	github.com/smartystreets/goconvey v1.6.4 // indirect
+	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
+	golang.org/x/crypto v0.41.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	google.golang.org/protobuf v1.36.8 // indirect
 )
