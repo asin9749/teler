@@ -3,7 +3,6 @@ module ktbs.dev/teler
 go 1.14
 
 require (
-	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/briandowns/spinner v1.16.0
 	github.com/bwmarrin/discordgo v0.23.2
 	github.com/fatih/color v1.10.0 // indirect
@@ -15,7 +14,7 @@ require (
 	github.com/prometheus/client_golang v1.10.0
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/sahilm/fuzzy v0.1.0
-	github.com/satyrius/gonx v1.3.0
+	github.com/satyrius/gonx v1.4.0
 	github.com/slack-go/slack v0.8.2
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
 	github.com/valyala/fastjson v1.6.3
